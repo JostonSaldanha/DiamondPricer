@@ -1,6 +1,6 @@
 pandas
 numpy
-scikit-leanr
+scikit-learn
 seaborn
 flask
 mlflow==2.2.2
