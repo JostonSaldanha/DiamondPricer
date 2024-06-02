@@ -21,10 +21,10 @@ class DataIngestion:
          self.ingestion_config=DataIngestionConfig()
 
     def initiate_data_ingestion(self):
-        loggin.info('data ingestion started')
+        logging.info('data ingestion started')
         try:
-            data=pd.read_csv('../train.csv')
-            loggin.info('reading a csv file')
+            data=pd.read_csv('train.csv')
+            logging.info('reading a csv file')
             os.makedirs(os.path.dirname(self.ingestion_config.raw_data_path))
             data.to_csv(self.ingestion_config.raw_data_path,index=False)
             logging.info(" i have saved the raw dataset in artifact folder")
