@@ -30,8 +30,8 @@ def load_object(file_path):
 def evaluate_model(X_train,y_train,X_test,y_test,models):
     try:
         report = {}
-        for i in range(len(models)):
-            model = list(models.values())[i]
+        for i in range(len(models)): #iterates over the keys
+            model = list(models.values())[i] #to iterate through dict we convert it to list 
             # Train model
             model.fit(X_train,y_train)
 
@@ -44,7 +44,7 @@ def evaluate_model(X_train,y_train,X_test,y_test,models):
             #train_model_score = r2_score(ytrain,y_train_pred)
             test_model_score = r2_score(y_test,y_test_pred)
 
-            report[list(models.keys())[i]] =  test_model_score
+            report[list(models.keys())[i]] =  test_model_score #the r2 score value gets assigned to the respective key
 
         return report
 
