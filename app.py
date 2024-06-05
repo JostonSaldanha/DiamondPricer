@@ -35,6 +35,10 @@ def predict_datapoint():
 
         return render_template("result.html",final_result=result)
 
+@app.route('/image/<filename>')
+def display_image(filename):
+    return send_from_directory('/media/joston-saldanha/New Volume/d drive/diamondpred', filename)
+
 
 
 if __name__=="__main__":
