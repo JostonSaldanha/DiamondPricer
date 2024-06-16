@@ -1,9 +1,0 @@
-[2024-06-05 22:11:57,118] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:8000
- * Running on http://172.17.4.255:8000
-[2024-06-05 22:11:57,118] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
-[2024-06-05 22:12:00,794] 97 werkzeug - INFO - 127.0.0.1 - - [05/Jun/2024 22:12:00] "GET / HTTP/1.1" 200 -
-[2024-06-05 22:12:00,822] 97 werkzeug - INFO - 127.0.0.1 - - [05/Jun/2024 22:12:00] "[33mGET /media/joston-saldanha/New%20Volume/d%20drive/diamondpred/diamond-316610_640.jpg HTTP/1.1[0m" 404 -
-[2024-06-05 22:12:10,070] 68 root - INFO - Dataframe Gathered
-[2024-06-05 22:12:10,111] 97 werkzeug - INFO - 127.0.0.1 - - [05/Jun/2024 22:12:10] "POST /predict HTTP/1.1" 200 -

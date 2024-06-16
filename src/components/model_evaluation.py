@@ -4,7 +4,7 @@ import mlflow
 import mlflow.sklearn
 import numpy as np
 import pickle
-from src.utils.utils import load_object
+from src.utils.util import load_object
 from urllib.parse import urlparse
 from sklearn.metrics import mean_squared_error,mean_absolute_error,r2_score
 from src.logger.logging import logging
