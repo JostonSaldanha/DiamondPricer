@@ -1,0 +1,12 @@
+[2024-07-01 02:27:26,054] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.17.6.229:5000
+[2024-07-01 02:27:26,055] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2024-07-01 02:27:41,469] 97 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2024 02:27:41] "GET / HTTP/1.1" 200 -
+[2024-07-01 02:27:41,619] 97 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2024 02:27:41] "[33mGET /media/joston-saldanha/New%20Volume/d%20drive/diamondpred/diamond-316610_640.jpg HTTP/1.1[0m" 404 -
+[2024-07-01 02:27:41,736] 97 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2024 02:27:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2024-07-01 02:27:44,532] 97 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2024 02:27:44] "GET / HTTP/1.1" 200 -
+[2024-07-01 02:27:44,582] 97 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2024 02:27:44] "[33mGET /media/joston-saldanha/New%20Volume/d%20drive/diamondpred/diamond-316610_640.jpg HTTP/1.1[0m" 404 -
+[2024-07-01 02:27:45,453] 97 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2024 02:27:45] "GET / HTTP/1.1" 200 -
+[2024-07-01 02:27:45,500] 97 werkzeug - INFO - 127.0.0.1 - - [01/Jul/2024 02:27:45] "[33mGET /media/joston-saldanha/New%20Volume/d%20drive/diamondpred/diamond-316610_640.jpg HTTP/1.1[0m" 404 -
